@@ -5,34 +5,26 @@ In the past, VCS were centralized, which meant that only one place could store t
 In order to use Git as efficiently as possible, Repo Hosting Services were created. The most famous ones are GitHub, GitLab, and BitBucket. 
 I decided to use GitHub because it is the most commonly used one. 
 On GitHub, I first created an account, and then, by using the terminal, I created my first repository.
-Still using the terminal, I played with it a bit, trying to explore as much as possible. I learnt:
+Still using the terminal, I played with it a bit, trying to explore as much as possible. I learnt the following commands:
 
-- how to create a branch
+git init
+git remote add git@github.com:<username>/<repository>.git
+git push -u origin master (or main)
 
-git checkout -b "name of the branch"
+git add <file(s)> 
+git add . 
 
--how to switch branch
-
-git checkout <name of the branch I want to switch to> 
-
-- how to add files
-
-git add <file>
-
-- what md stands for (Markdown Documentation) and how to use a markdown language
-
-- how to make a change 
-
-git commit -m "message describing the change"
-
-- how to amend a commit
-
-git commit -amend "new message"
-
-- how to push the change to the main branch
+git commit -m "describing message"
+git commit --amend "new describing message"
 
 git push
+git pull
 
-- how to see my git status
+git checkout -b <name of new branch>
+git checkout master (or main)
 
-git status 
+git status
+git log --oneline
+
+git rm <file(s)>
+git remote rm origin
