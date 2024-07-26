@@ -1,0 +1,29 @@
+Today I continued my first project. 
+I learnt how to:
+
+- extend the body to full page
+body {
+    min-height: 100vh;
+}
+
+- setting a class to half page
+.header {
+    height: 50vh;
+}
+
+- adjust margins 
+margin-top
+margin-left
+margin-right
+margin-bottom
+margin-block-start
+margin-block-end
+
+- darken a background image by using:
+linear-gradient (rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+REMEMBER: red, green, blue, alpha parameter (opacity/transparency)!
+
+- importing a font from Google
+<style>
+@import url (http://...)
+</style>
