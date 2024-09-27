@@ -1,0 +1,8 @@
+Today I started reading through W3Schools' advanced CSS section.
+Specifically, I focused on:
+1. rounded corners using the border-radius property
+2. border images (round or stretch or repeat)
+3. multiple backgrounds (size, origin, clip)
+4. color keywords: transparent, currentcolor, inherit
+5. gradients: linear, radius, conic (and directions, for example "to right")
+6. shadow effects: text-shadow and box-shadow
